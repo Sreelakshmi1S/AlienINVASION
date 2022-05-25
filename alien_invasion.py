@@ -18,8 +18,8 @@ class AlienInvasion:
                 pygame.display.flip()
 if _name_=='_main_':
 #Make a game instance, and run the game.
-ai=AlienInvasion()
-ai.run_game()
+   ai=AlienInvasion()
+   ai.run_game()
 def _int_(self):
    pygame.display.set_caption("Alien Invasion")
    self.bg_color=(230,230,230)
